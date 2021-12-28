@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shopping Home UI</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="box-common-container">
+            <nav class="header-navbar">
+                <div class="primary-logo"><span class="font2">LOGO</span></div>
+                <!-- <div class="header-label">
+                    <div class="header-label-text"><p class="line1"></p><span class="header-grey-text">Compare and Save Upto</span> <span class="header-percent font1"> 60%</span><p class="line2"></p></div>
+                </div> -->
+                <div class="nav-left">
+                    <ul id="menu-list" class="menu main-nav-list">
+                        <li class="nav-item"><a class="nav-link"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li class="nav-item"><a class="nav-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        <button id="dropdown-toggler" data-class="dropdown-active" class="mobile-tab-icon">
+                            <span class="tab-line tab-line-first"></span>
+                            <span class="tab-line tab-line-second"></span>
+                            <span class="tab-line tab-line-third"></span>
+                        </button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section class="banner-section">
+        <div class="main-banner">
+            <div class="main-banner-left">
+                <p class="banner-line1"></p>
+                <p class="banner-line2"></p>
+                <div class="banner-left-heading">
+                    <h2 class="font1">Laptops</h2>
+                    <p>
+                        <span>01</span>
+                        <span>02</span>
+                        <span class="orange">03</span>
+                        <span class="orange">______</span>
+                        <span>04</span>
+                    </p>
+                </div>
+            </div>
+            <div class="main-banner-center">
+                <p class="banner-line3"></p>
+                <div class="header-label">
+                    <div class="header-label-text">
+                        <p class="line1"></p><span class="header-grey-text">Compare and Save Upto</span> <span
+                            class="header-percent font1"> 60%</span>
+                        <p class="line2"></p>
+                    </div>
+                </div>
+                <div class="main-banner-img">
+                    <img src="image/banner_5-removebg-preview.png" alt="Banner_img">
+                </div>
+            </div>
+            <div class="main-banner-right">
+                <p class="banner-line4"></p>
+                <p class="banner-line5"></p>
+                <div class="main-right-info">
+                    <!-- <h2 class="font1"></h2> -->
+                    <h5 class="font1 big-label-text"><span class="font1">BIG</span> weekend Sales On</h5>
+                    <h5 class="banner-top-brand">Top Brand LAPTOPS</h5>
+                    <button type="button" class="btn-orange">SHOP NOW
+                        <span>
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                                viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000"
+                                    stroke="none">
+                                    <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+               -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+               -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+               -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+               410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+               638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                </g>
+                            </svg>
+                        </span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature product section -->
+    <section class="feature-product-section common-section">
+        <div class="box-common-container">
+            <div class="container-heading">
+                <div class="container-header-tab">
+                    <p class="grey-box"></p>
+                    <h2 class="font1">Featrured Products</h2>
+                </div>
+                <p>
+                    <span class="left-arrow-icon">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                                stroke="none">
+                                <path d="M1204 3811 c-72 -53 -1183 -1175 -1194 -1206 -28 -73 -43 -55 598
+                   -698 328 -329 609 -605 624 -613 15 -8 41 -14 58 -14 78 0 134 93 99 163 -6
+                   12 -232 244 -503 515 l-491 492 2326 0 2327 0 30 28 c39 36 50 88 28 134 -33
+                   69 180 63 -2386 66 l-2325 2 493 493 c340 340 495 501 500 522 12 43 -3 89
+                   -39 119 -42 36 -94 35 -145 -3z" />
+                            </g>
+                        </svg>
+                    </span>
+
+                    <span class="right-arrow-icon">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fa643c"
+                                stroke="none">
+                                <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                            </g>
+                        </svg>
+                    </span>
+                </p>
+            </div>
+            <div class="feature-product-list">
+                <div class="table-container feature-main-left">
+                    <div class="table-contain">
+
+                        <div class="feature-section feature-left-section">
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_7.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>DENIZEN from Levi's Modern demo Jeans - Medium Wash</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_2-removebg-preview.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>Ladies Steve Madden oxford cat Eye Sunglass Rose gold</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_3-removebg-preview.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>Kitchen Aid classic 4.5 Ot Stand Mixer KSM75</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-center-section">
+                    <div class="feature-banner">
+                        <img src="image/feature-banner_1.jpg" alt="Feature-Banner">
+                    </div>
+                    <div class="feature-banner">
+                        <img src="image/feature-banner_2.png" alt="Feature-Banner">
+                    </div>
+                </div>
+                <div class="table-container feature-main-right">
+                    <div class="table-contain">
+                        <div class="feature-section feature-right-section">
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_4-removebg-preview.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>Puma Dare Unisex Black Slip-On Sneakers</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_5-removebg-preview.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>JBL Link 20 Water Resistant Activated Smart Speaker</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                            <div class="feature-product-card">
+                                <div class="feature-product-img">
+                                    <img src="image/feature_product_8.png" alt="Feature_Product">
+                                </div>
+                                <div class="feature-product-info">
+                                    <p>Zima Lato Women Mustard Yellow Sleeves</p>
+                                    <h5 class="Feature-price">$100.95</h5>
+                                    <h5 class="feature-shop-now-btn">SHOP NOW</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best deal section -->
+    <section class="best-deal-section common-section">
+        <div class="box-common-container">
+            <div class="best-deal-list">
+                <div class="best-deal-left">
+                    <div class="best-deal-box2"></div>
+                    <!-- <div class="best-deal-left-info"> -->
+                    <p class="font1 orange-text">60<sup class="font1">%</sup><span class="font1">off</span></p>
+                    <p class="font1 grey-upto-text">Up To</p>
+                    <p class="grey-selected-brand">On Selected <br> Brands</p>
+                    <!-- </div> -->
+                </div>
+                <div class="best-deal-right">
+                    <div class="best-deal-img">
+                        <img src="image/television_img_1.png" alt="Television_offer">
+                    </div>
+                    <div class="best-deal-box1"></div>
+                    <div class="best-deal-info">
+                        <h2>Best Deals On <br><span class="font1">Smart TV's</span></h2>
+                        <button type="button" class="btn-orange">SHOP NOW
+                            <span>
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                                    viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000"
+                                        stroke="none">
+                                        <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                    </g>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop by categories section -->
+    <section class="shop-category-section common-section">
+        <div class="box-common-container">
+            <div class="container-heading">
+                <div class="container-header-tab">
+                    <p class="grey-box"></p>
+                    <h2 class="font1">Shop By Categories</h2>
+                </div>
+                <p>View All</p>
+            </div>
+            <div class="table-container">
+                <div class="table-contain">
+                    <div class="category-section">
+
+                        <div class="category-card">
+                            <img src="image/category_1.jpg" alt="Sports & Outdoors" class="category-card-image">
+                            <div class="overlay-text">
+                                <div class="">Sports & Outdoors</div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <img src="image/category_2.jpg" alt="Fashion & Clothing" class="category-card-image">
+                            <div class="overlay-text">
+                                <div class="">Fashion & Clothing</div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <img src="image/category_3.jpg" alt="Food & Grocery" class="category-card-image">
+                            <div class="overlay-text">
+                                <div class="">Food & Grocery</div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <img src="image/category_4.jpg" alt="Electronics" class="category-card-image">
+                            <div class="overlay-text">
+                                <div class="">Electronics</div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <img src="image/category_5.jpg" alt="Pet Supplies" class="category-card-image">
+                            <div class="overlay-text">
+                                <div class="">Pet Supplies</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- deals of the day section -->
+    <section class="deal-day-section common-section">
+        <h2 class="light-text">Best Deals For You</h2>
+        <div class="box-common-container">
+            <div class="container-heading">
+                <div class="container-header-tab">
+                    <p class="grey-box"></p>
+                    <h2 class="font1">Deals Of The Day</h2>
+                </div>
+                <p>
+                    <span class="left-arrow-icon">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000"
+                                stroke="none">
+                                <path d="M1204 3811 c-72 -53 -1183 -1175 -1194 -1206 -28 -73 -43 -55 598
+                   -698 328 -329 609 -605 624 -613 15 -8 41 -14 58 -14 78 0 134 93 99 163 -6
+                   12 -232 244 -503 515 l-491 492 2326 0 2327 0 30 28 c39 36 50 88 28 134 -33
+                   69 180 63 -2386 66 l-2325 2 493 493 c340 340 495 501 500 522 12 43 -3 89
+                   -39 119 -42 36 -94 35 -145 -3z" />
+                            </g>
+                        </svg>
+                    </span>
+
+                    <span class="right-arrow-icon">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fa643c"
+                                stroke="none">
+                                <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                            </g>
+                        </svg>
+                    </span>
+                </p>
+            </div>
+            <div class="products">
+                <div class="prd top-product">
+                    <div>
+                        <p class="new-arrival-text">NEW ARRIVAL</p>
+                        <img src="image/deal_img_8-removebg-preview.png" alt="product">
+                        <p><a href="#">See More</a></p>
+                    </div>
+                </div>
+                <div class="prd">
+                    <div class="deal-product">
+                        <img src="image/deal_img_3.png" alt="product">
+                        <h6 class="name">product name</h6>
+                        <h5 class="price">$100.95</h5>
+                    </div>
+                </div>
+                <div class="prd">
+                    <div class="deal-product">
+                        <img src="image/deal_img_4.png" alt="product">
+                        <h6 class="name">product name</h6>
+                        <h5 class="price">$100.95</h5>
+                    </div>
+                </div>
+                <div class="prd">
+                    <div class="deal-product">
+                        <img src="image/deal_img5.png" alt="product">
+                        <h6 class="name">product name</h6>
+                        <h5 class="price">$100.95</h5>
+                    </div>
+                </div>
+                <div class="prd">
+                    <div class="deal-product">
+                        <img src="image/deal_img6.png" alt="product">
+                        <h6 class="name">product name</h6>
+                        <h5 class="price">$100.95</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Advertise section -->
+    <section class="advertise-section common-section">
+        <div class="box-common-container">
+            <div class="best-deals">
+                <div class="advertise-left">
+                    <img src="image/deal_img_10.jpg" alt="banner">
+                    <button>BEST DEAL ON</button>
+                </div>
+                <div class="advertise-right">
+                    <div>
+                        <img src="image/deals_img_1.png" alt="banner">
+                    </div>
+                    <div>
+                        <img src="image/deal_img_9.jpg" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clearence special deal section -->
+    <section class="special-deal-section common-section">
+        <div class="box-common-container">
+            <div class="container-heading">
+                <div class="container-header-tab">
+                    <p class="grey-box"></p>
+                    <h2 class="font1">Clearence Special Deals</h2>
+                </div>
+            </div>
+            <div class="special-card-section">
+                <div class="special-card-left">
+                    <div class="special-card">
+                        <img src="image/special_deal_1-removebg-preview.png" alt="special_offer">
+                        <div class="special-card-title">
+                            <p>Maniac Men Navy Blue Checked Round Neck T-shirt</p>
+                            <h5>$100.59</h5>
+                        </div>
+                        <div class="shop-now-btn">
+                            <button type="button" class="btn-orange">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="special-card">
+                        <img src="image/special_deal_2-removebg-preview.png" alt="special_offer">
+                        <div class="special-card-title">
+                            <p>Maniac Men Navy Blue Checked Round Neck T-shirt</p>
+                            <h5>$100.59</h5>
+                        </div>
+                        <div class="shop-now-btn">
+                            <button type="button" class="btn-orange">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="special-card">
+                        <img src="image/special_deal_3-removebg-preview.png" alt="special_offer">
+                        <div class="special-card-title">
+                            <p>Whiskas Adult Wet food in Gravy Salmon 1.02kg Wet</p>
+                            <h5>$100.59</h5>
+                        </div>
+                        <div class="shop-now-btn">
+                            <button type="button" class="btn-orange">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="special-card">
+                        <img src="image/special_deal_4-removebg-preview.png" alt="special_offer">
+                        <div class="special-card-title">
+                            <p>Puma Men Navy Flex Campo Mesh IDP Running Shoes</p>
+                            <h5>$100.59</h5>
+                        </div>
+                        <div class="shop-now-btn">
+                            <button type="button" class="btn-orange">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-card-right">
+                    <div class="newsletter-text">
+                        <p><span class="subscribe-text">Subscribe to</span><br>
+                            <span class="font1 news-letter-heading">News Letter</span><br>
+                            <span class="newsletter-subtitle">For the best Online deals updates Subscribe now</span>
+                        </p>
+                    </div>
+                    <div class="newletter-form">
+                        <input type="text" name="name" placeholder="Enter Your Email Id" autocomplete="off"><br>
+                        <button type="button" class="btn-orange">SUBSSCRIBE NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section -->
+    <section class="blog-section">
+        <h2 class="font1"><span class="font1">BLOG</span>foryou</h2>
+        <div class="common-section">
+            <div class="box-common-container">
+                <div class="container-heading">
+                    <p>
+                        <span class="left-arrow-icon">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                                viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#eeeeee"
+                                    stroke="none">
+                                    <path d="M1204 3811 c-72 -53 -1183 -1175 -1194 -1206 -28 -73 -43 -55 598
+                   -698 328 -329 609 -605 624 -613 15 -8 41 -14 58 -14 78 0 134 93 99 163 -6
+                   12 -232 244 -503 515 l-491 492 2326 0 2327 0 30 28 c39 36 50 88 28 134 -33
+                   69 180 63 -2386 66 l-2325 2 493 493 c340 340 495 501 500 522 12 43 -3 89
+                   -39 119 -42 36 -94 35 -145 -3z" />
+                                </g>
+                            </svg>
+                        </span>
+
+                        <span class="right-arrow-icon">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50px" height="40px"
+                                viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fa643c"
+                                    stroke="none">
+                                    <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                </g>
+                            </svg>
+                        </span>
+                    </p>
+                </div>
+                <div class="table-container">
+                    <div class="table-contain">
+                        <div class="blog-card-list">
+                            <div class="blog-card blog-card-bottom">
+                                <div class="blog-img">
+                                    <img src="image/blog_1.jpg" alt="blog_image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-para">
+                                        <p class="blog-line"></p>
+                                        <p class="font1">Ad Blog 1 Title Lorem ipsum dolar sit amet...</p>
+                                    </div>
+                                    <div class="blog-btn">
+                                        <button type="button" class="btn-orange">READ MORE <span>
+                                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40px"
+                                                    height="30px" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#fff" stroke="none">
+                                                        <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                                    </g>
+                                                </svg>
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-card blog-card-top">
+                                <div class="blog-img">
+                                    <img src="image/blog_2.jpg" alt="blog_image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-para">
+                                        <p class="blog-line"></p>
+                                        <p class="font1">Ad Blog 1 Title Lorem ipsum dolar sit amet...</p>
+                                    </div>
+                                    <div class="blog-btn">
+                                        <button type="button" class="btn-orange">READ MORE <span>
+                                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40px"
+                                                    height="30px" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#fff" stroke="none">
+                                                        <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                                    </g>
+                                                </svg>
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-card blog-card-bottom">
+                                <div class="blog-img">
+                                    <img src="image/blog_3.jpg" alt="blog_image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-para">
+                                        <p class="blog-line"></p>
+                                        <p class="font1">Ad Blog 1 Title Lorem ipsum dolar sit amet...</p>
+                                    </div>
+                                    <div class="blog-btn">
+                                        <button type="button" class="btn-orange">READ MORE <span>
+                                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40px"
+                                                    height="30px" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#fff" stroke="none">
+                                                        <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                                    </g>
+                                                </svg>
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-card blog-card-top">
+                                <div class="blog-img">
+                                    <img src="image/blog_4.jpg" alt="blog_image">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-para">
+                                        <p class="blog-line"></p>
+                                        <p class="font1">Ad Blog 1 Title Lorem ipsum dolar sit amet...</p>
+                                    </div>
+                                    <div class="blog-btn">
+                                        <button type="button" class="btn-orange">READ MORE <span>
+                                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40px"
+                                                    height="30px" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#fff" stroke="none">
+                                                        <path d="M3806 3840 c-62 -19 -97 -83 -81 -147 4 -19 171 -192 498 -520 l491
+                   -493 -2316 -2 -2317 -3 -28 -21 c-15 -11 -35 -39 -43 -62 -13 -37 -12 -45 3
+                   -76 9 -19 29 -43 44 -53 26 -17 133 -18 2342 -21 l2315 -2 -486 -488 c-268
+                   -268 -492 -500 -497 -515 -25 -65 0 -126 62 -152 70 -29 56 -41 708 612 410
+                   410 610 617 614 636 4 15 4 39 0 55 -4 18 -203 224 -608 631 -514 515 -644
+                   638 -669 630 -2 0 -16 -5 -32 -9z" />
+                                                    </g>
+                                                </svg>
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+        <div class="box-common-container">
+            <div class="footer-section">
+                <div class="footer-card">
+                    <h2>LOGO</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s</p>
+                </div>
+                <div class="footer-card footer-category-card">
+                    <div class="footer-grey-section">
+                        <h4 class="font1">Categories</h4>
+                        <div class="footer-category-list">
+                            <div>Electronics</div>
+                            <div>Sports & Outdoors</div>
+                            <div>Tools & Supplies</div>
+                            <div>Food & Grocery</div>
+                            <div>Kitchen & Dining</div>
+                            <div>Pet Supplies</div>
+                            <div>Home Furnitures</div>
+                            <div>Fashion & Clothing</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-card">
+                    <div class="footer-grey-section">
+                        <h4 class="font1">Company</h4>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-section">
+        <p>Copyright 2018. All Right Reserved</p>
+    </div>
+    <div class="black-patch">
+    </div>
+</body>
+
+</html>
