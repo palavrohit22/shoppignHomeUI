@@ -945,6 +945,7 @@
       .footer-section{
         display: block;
       }
+      
       .footer-section .footer-card{
         width: 100%;
         margin-bottom: 20px;
@@ -975,6 +976,9 @@
       .table-container{
         width: 100%;
         overflow: auto;
+      }
+      .blog-section .blog-container{
+        overflow-x: auto;
       }
       .table-contain{
         width: 1000px;
